@@ -1,36 +1,47 @@
-body
-  font-size: 14px;
+
+
+/* Here is where I can insert personal comments about the style guide.
+I changed the width of the sections from 60% to 30%. Also, note that the
+last three elements have a differet background color */
+
+body {
+  font-size: 14px; font-family: sans-serif;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
-  width: 60%;
+  width: 30%;
 }
 
 h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
+  text-align: center;
+  font-size: 3em;
 }
 
 h3 {
+  padding-top: 30px;
+  text-align: center;
   font-size: 1.3em;
 }
 
-.element {
+div {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+div.element {
+  background-color: pink;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
